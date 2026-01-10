@@ -7,7 +7,7 @@ jobs:
     # Seting up the environment and dependencies
       - name: Checkout Repo
         uses: actions/checkout@v6.0.2
-      - name: Run Podcast Feed Generator
+      - name: Run Podcast-Generator repo action
         uses: jassoncodes/podcast-generator@main
 
 # Commented to use the jassoncodes/podcast-generator actions
